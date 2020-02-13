@@ -34,7 +34,7 @@ public class Entradas {
 		int tam = 0;
 		try {
 			String reg;
-			FileReader arch = new FileReader("C:\\Users\\SUPPLIER\\eclipse-workspace\\PII\\src\\Herramientas\\@datos.csv");
+			FileReader arch = new FileReader("@datos.csv");
 			BufferedReader buffer = new BufferedReader(arch);
 
 			while((reg = buffer.readLine()) != null) {
@@ -66,7 +66,7 @@ public class Entradas {
 		int tam = 0;
 		try {
 			String reg;
-			FileReader arch = new FileReader("C:\\Users\\SUPPLIER\\eclipse-workspace\\PII\\src\\Herramientas\\@datos.csv");
+			FileReader arch = new FileReader("@datos.csv");
 			BufferedReader buffer = new BufferedReader(arch);
 
 			while((reg = buffer.readLine()) != null) {
@@ -112,7 +112,7 @@ public class Entradas {
 		lineaEstaciones.inicializarDiccionario();
 		try {
 			String register;
-			FileReader arch = new FileReader("C:\\Users\\SUPPLIER\\eclipse-workspace\\PII\\src\\Herramientas\\@datos.csv");
+			FileReader arch = new FileReader("@datos.csv");
 			BufferedReader buffer = new BufferedReader(arch);
 
 			while((register = buffer.readLine()) != null) {
