@@ -22,7 +22,7 @@ public class TPO {
 		//-- Punto 2.b
 		//InputOutput.punto2b();
 		
-		//-- Punto 3.c
+		//-- Punto 2.c
 		InputOutput.obtenerLineasRepetidas();
 		
 		//-- Punto 2.d

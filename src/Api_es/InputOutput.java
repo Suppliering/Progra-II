@@ -101,7 +101,7 @@ public class InputOutput {
 	 */
 	public static void mostrarCantidadEstacionesLineas() {
 
-		System.out.println("Cant. de estaciones");
+		System.out.println("#2.a "+"-"+" Cantidad de estaciones para cada una de las líneas " +"\n");
 		ConjuntoTDA claves = lineaEstaciones.claves();
 		while(!claves.conjuntoVacio()) {
 
@@ -130,7 +130,7 @@ public class InputOutput {
 	 * @Costo: cuadratico
 	 */
 	public static void listarTransferenciaLineas() {
-
+		System.out.println("#2.d "+"-"+" Lista de estaciones de transferencia (origen) en orden alfabético indicando cantidad de líneas posibles se puede combinar " +"\n");
 		ColaPrioridadTDA colaPrioridad = new ColaPrioridad();
 		colaPrioridad.inicializarCola();
 
@@ -178,7 +178,7 @@ public class InputOutput {
 	 */
 	public static void obtenerLineasRepetidas() {
 		
-		System.out.println("Estaciones de igual nombre");
+		System.out.println("#2.c "+"-"+" Estaciones de igual nombre" + "\n");
 		ConjuntoTDA claves = estacionesIguales.claves();
 		while(!claves.conjuntoVacio()) {
 			
